@@ -8,22 +8,19 @@ public class JavaBeanExercise {
 		System.out.println(C.getName());
 		C.setID(123456);
 		System.out.println(C.getID());
-		
-		
-		
+
+}
+
+}
+
+   class CreditCard {
+
+	private int ID;
+	private String Name;
+	public CreditCard() {
 
 	}
 
-}
-
- class CreditCard {
-	  
-	  private int ID;
-	  private String Name;
-	  public CreditCard() {
-	
-}
-	 
 	public int getID() {
 		return ID;
 	}
@@ -36,8 +33,8 @@ public class JavaBeanExercise {
 	public void setName(String name) {
 		Name = name;
 	}
- 
- }
- 
- 
- 
+
+}
+
+
+

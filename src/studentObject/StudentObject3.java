@@ -1,9 +1,12 @@
 package studentObject;
 
 
+
 public class StudentObject3 {
 
 	public static void main(String[] args) {
+		
+	
 		NaughtyStudent NS1= new NaughtyStudent();
 		NaughtyStudent NS2 = new NaughtyStudent();
 		NaughtyStudent NS3 = new NaughtyStudent();
