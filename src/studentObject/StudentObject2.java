@@ -9,12 +9,15 @@ public class StudentObject2 {
 	public static void main(String[] args) {
 		
 		GoodStudent GS= new GoodStudent();
-	
 		GS.Name= "Uzma";
 		GS.Roll=1;
 		GS.Mark= 100.2f;
 		
-		GS.Display();
+		
+	
+		
+		
+		//GS.Display();
 	
 		System.out.println("Roll is: " + GS.Name);
 		System.out.println("Roll is: " + GS.Roll);
@@ -26,24 +29,25 @@ public class StudentObject2 {
 }
 
 
-class GoodStudent {
+class  GoodStudent {
 	
 	int Roll;
 	float Mark;
 	String Name;
 	
+	//void Display() {
 	
-	void Display() {
-		/*System.out.println("Roll is: " + GS.Name);
-		System.out.println("Roll is: " + GS.Roll);
-		System.out.println("Roll is: " + GS.Mark);*/
+
+	
+	
+	
 		
 		//this.Roll= Roll;//this line has no effect and why
 		//System.out.println("Roll is: " + Roll);// this line has no effect and why
 
 
 		
-	}		
+			
 }
 
 

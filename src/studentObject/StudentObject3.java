@@ -12,9 +12,11 @@ public class StudentObject3 {
 		NS2.setData(51, 30, "Rahim");
 		NS3.setData(52, 34, "Jabbar");
 
-		NS1.Display();
+		NS1.getData();
 		System.out.println();
-		NS2.Display();
+		NS2.getData();
+		System.out.println();
+		NS3.getData();
 
 
 
@@ -33,7 +35,7 @@ class NaughtyStudent{
 		this.Mark= Mark;
 		this.Name= Name;
 	}
-	void Display( ) {
+	void getData( ) {
 
 		System.out.println("Roll is: "+ Roll);
 		System.out.println("Mark is: "+ Mark);
