@@ -6,8 +6,8 @@ public class JavaBeanExercise {
 		CreditCard C= new CreditCard ();
 		C.setName("Fatema Tuj Zohra");
 		System.out.println(C.getName());
-		C.setID(123456);
-		System.out.println(C.getID());
+		C.setCardNo(123456);
+		System.out.println(C.getCardNo());
 
 }
 
@@ -15,17 +15,17 @@ public class JavaBeanExercise {
 
    class CreditCard {
 
-	private int ID;
+	private int CardNo;
 	private String Name;
 	public CreditCard() {
 
 	}
 
-	public int getID() {
-		return ID;
+	public int getCardNo() {
+		return CardNo;
 	}
-	public void setID(int iD) {
-		ID = iD;
+	public void setCardNo(int cardno) {
+		CardNo = cardno;
 	}
 	public String getName() {
 		return Name;

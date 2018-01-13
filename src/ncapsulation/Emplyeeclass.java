@@ -16,6 +16,8 @@ public class Emplyeeclass {
 }
  class Employee{
 	private double salary;
+	private double bonus;
+	
 	public double getSalary() {
 		return salary;
 	}
@@ -28,7 +30,7 @@ public class Emplyeeclass {
 	public void setBonus(double bonus) {
 		this.bonus = bonus;
 	}
-	private double bonus;
+	
  	 
  
  
