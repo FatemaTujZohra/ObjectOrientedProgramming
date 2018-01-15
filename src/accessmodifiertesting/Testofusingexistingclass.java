@@ -6,8 +6,8 @@ public class Testofusingexistingclass {
 		CreditCard C= new CreditCard ();
 		C.setName("Fatema Tuj Zohra");
 		System.out.println(C.getName());
-		C.setID(123456);
-		System.out.println(C.getID());
+		C.setCardNo(123456);
+		System.out.println(C.getCardNo());
 
 	}
 
