@@ -36,7 +36,7 @@ public static void main(String[] args) {
 	u.Display();
 	u.SetData();
 	
-	System.out.println("\nAccessing Derived-Class Methods by Derived-Class:");
+	System.out.println("\nAccessing Derived-Class Method by Derived-Class:");
 	u.Reading();
 	
 	
